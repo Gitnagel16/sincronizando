@@ -11,3 +11,20 @@ $persona = [
               echo "$valor <br>";
           }
 ?>
+
+
+
+
+$auto = [
+              "marca" => "Fiat",
+              "modelo" => "Cronos",
+              "año" => 2023
+          ];
+  
+
+          foreach ($auto as $posicion => $valor) {
+              echo "$posicion: $valor <br>";
+          }
+
+
+
